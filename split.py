@@ -1,6 +1,6 @@
 import os
 
-def split_file(file_path, chunk_size=25 * 1024 * 1024, chunk_prefix="model_chunk_"):
+def split_file(file_path, chunk_size=20 * 1024 * 1024, chunk_prefix="model_chunk_"):
     # Get the folder where the file is located
     parent_folder = os.path.dirname(file_path)
     chunk_folder = os.path.join(parent_folder, "chunks")

@@ -2,3 +2,5 @@ streamlit
 torch
 transformers==4.37.0
 scikit-learn
+os 
+
